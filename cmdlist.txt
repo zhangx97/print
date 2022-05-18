@@ -1,0 +1,24 @@
+[Command List]
+
+¡´lsdev             : List the cypress device info.
+¡´proj <on,off>     : Turn the projector On or Off.
+¡´print <para>      : Set the curing time digital value.
+                     para(frames) must be an integer 0 to 65535.
+    	             unit frames eqaul to 1/60 second, e.g. 1s = 60.
+¡´led <on,off>      : Turn the UV LED On or Off.
+¡´sdac <para>       : Set the UV LED current digital value.
+                     Para must be an integer 0 or 50~1000.
+¡´ssource <para>    : Set the source of pattern.
+                     Para can be hdmi,ramp,checker,solid.
+¡´sflip <para>      : Set the DMD flip oriantation.
+                     Para can be no,h,v,hv.
+                     no: no flip
+                     h: horizontal
+                     v: vertical
+                     hv: horizontal&vertical
+¡´gdac              : Get the UV LED current digital value.
+¡´gappver           : Get the F/W version.
+¡´gledtemp          : Get the temperature of the UV LED.
+¡´gflip             : Get the DMD flip oriantation.
+¡´glight            : Get the light sensor value.
+¡´exit              : To exit the program.
